@@ -1,0 +1,14 @@
+{
+  "name": "reactive-vanillajs",
+  "version": "1.0.4-hotfix",
+  "main": "build/index.js",
+  "license": "MIT",
+  "author": {
+    "email": "mtxshiftg@gmail.com",
+    "name": "Mohammed Ali Agha",
+    "url": "https://github.com/dodiameer"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
