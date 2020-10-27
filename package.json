@@ -9,6 +9,12 @@
     "url": "https://github.com/dodiameer"
   },
   "scripts": {
-    "build": "tsc"
-  }
+    "build": "parcel build ./src/index.ts",
+    "watch": "parcel serve ./public/index.html --dist-dir server_files"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3",
+    "parcel": "next"
+  },
+  "types": "build/index.d.ts"
 }

@@ -1,1 +1,1 @@
-{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,aAAa,MAAM,iBAAiB,CAAC;AAC5C,OAAO,EAAE,aAAa,EAAE,CAAC"}
+{"mappings":"AA4BA,6BAA6B;AC3B7B,OAAO,EAAE,aAAa,EAAE,CAAC","sources":["./src/src/reactiveStore.ts","./src/src/index.ts"],"sourcesContent":[null,null],"names":[],"version":3,"file":"index.d.ts.map"}
