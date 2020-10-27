@@ -1,6 +1,6 @@
 {
   "name": "reactive-vanillajs",
-  "version": "1.0.4-hotfix",
+  "version": "1.0.5",
   "main": "build/index.js",
   "license": "MIT",
   "author": {
@@ -13,8 +13,8 @@
     "watch": "parcel serve ./public/index.html --dist-dir server_files"
   },
   "devDependencies": {
-    "typescript": "^4.0.3",
-    "parcel": "next"
+    "parcel": "next",
+    "typescript": "^4.0.3"
   },
   "types": "build/index.d.ts"
 }
