@@ -24,6 +24,8 @@ This is a framework-agnostic library for implementing reactive, Svelte store-lik
 }
 ```
 
+- Typescript supported! The library is written in TS anyways so types are included for those who use it
+
 ## Missing features
 
 - React hooks: This library is framework-agnostic, so while I'd love to implement it and it's easy to do so, I'm leaving it out
