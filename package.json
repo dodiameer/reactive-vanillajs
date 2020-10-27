@@ -9,12 +9,13 @@
     "url": "https://github.com/dodiameer"
   },
   "scripts": {
-    "build": "parcel build ./src/index.ts",
-    "watch": "parcel serve ./public/index.html --dist-dir server_files"
+    "build": "parcel build ./src/index.ts -d build && yarn generateTypes",
+    "watch": "parcel ./public/index.html -d server_files",
+    "generateTypes": "tsc src/index.ts --outDir temp --declaration --declarationDir build"
   },
   "devDependencies": {
-    "parcel": "next",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "parcel-bundler": "1.12.4"
   },
   "types": "build/index.d.ts"
 }

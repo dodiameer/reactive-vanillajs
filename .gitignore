@@ -1,4 +1,5 @@
 node_modules
 server_files
-public
 .parcel-cache
+.cache
+temp

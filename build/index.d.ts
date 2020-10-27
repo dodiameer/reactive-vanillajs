@@ -1,4 +1,3 @@
-export default reactiveStore;
+import reactiveStore from "./reactiveStore";
 export { reactiveStore };
-
-//# sourceMappingURL=index.d.ts.map
+export default reactiveStore;
